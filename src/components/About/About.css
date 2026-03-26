@@ -1,0 +1,17 @@
+.box1{
+    padding: 30px 20px !important;
+}
+.box{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 196, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.user{
+    font-size: 30px;
+    margin-top: 0px;
+    color: white !important;
+}

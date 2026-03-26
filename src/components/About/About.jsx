@@ -1,29 +1,34 @@
-export default function About_us(){
+import "../About/About.css"
+export default function About(){
     return(
         <div>
-            <div className="container d-flex">
-                <div className="box1 bg-body-secondary">
-                    <i class="fa-solid fa-location-pin  car_1 bg-warrning"></i>
-                   <i class="fa-solid car-side text-white"></i>
-                   <h1>Free Shipping</h1>
-                   <p>freeon oredr about 300$</p>
+            <div className="container d-flex p-5 justify-content-between">
+                <div className="box1 bg-light rounded d-flex flex-column justify-content-center align-items-center w-70 " >
+                    <div className="box">
+                        <i class="fa-solid fa-car-side text-success user"></i>
+                    </div>
+                   <h2 className="text-secondary">Free Shipping</h2>
+                   <p>free on order about 300$</p>
                 </div>
-                <div className="box2">
-                    <i class="fa-solid fa-location-pin  car_2"></i>
-                    <i class="fa-solid fa-user-shield"></i>
-                    <h1>Security payment</h1>
+                <div className="box1  bg-light p-2 rounded d-flex flex-column justify-content-center align-items-center w-70 ">
+                    <div className="box">
+                    <i class="fa-solid fa-user-shield text-success user"></i>
+                    </div>
+                    <h2>Security payment</h2>
                     <p>100% security payment</p>
                 </div>
-                <div className="box3">
-                    <i class="fa-solid fa-location-pin  car_3"></i>
-                   <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                   <h1>30 Day return</h1>
+                <div className="box1 bg-light p-2 rounded d-flex flex-column justify-content-center align-items-center w-70 ">
+                    <div className="box"> 
+                   <i class="fa-solid fa-arrow-right-arrow-left text-success user"></i>
+                   </div>
+                   <h2>30 Day return</h2>
                    <p>30 day money guarantee</p>
                 </div>
-                <div className="box4">
-                    <i class="fa-solid fa-location-pin  car_4"></i>
-                   <i class="fa-solid fa-phone"></i>
-                   <h1>24/7 Support</h1>
+                <div className="box1 bg-light p-2 rounded d-flex flex-column justify-content-center align-items-center w-70 ">
+                     <div className="box">
+                   <i class="fa-solid fa-phone text-success user"></i>
+                   </div>
+                   <h2>24/7 Support</h2>
                    <p>Support every time fast</p>
                 </div>
             </div>

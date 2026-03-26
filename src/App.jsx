@@ -1,6 +1,7 @@
 import Header from './components/header/header'
 import Adress from './components/Adress/Adres'
 import Banner from './components/Banner/banner'
+import About from "./components/About/About"
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Adress/>
       <Header/>
       <Banner />
+      <About />
     </>
   )
 }
