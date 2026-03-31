@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+  background: #f5f5f5;
+}
+
+.card {
+  width: 260px;
+  height: 300px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 12px;
+  color: white;
+}
+
+.card-info p {
+  font-size: 14px;
+}
+
+.card-info h3 {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+/* Ranglar */
+.green {
+  background: #6cc04a;
+}
+
+.gray {
+  background: #eaeaea;
+  color: #333;
+}
+
+.orange {
+  background: #f5a623;
+}
